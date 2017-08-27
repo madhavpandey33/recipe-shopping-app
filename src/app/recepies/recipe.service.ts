@@ -13,13 +13,13 @@ export class RecipeService{
       'Indian Snacks','https://thumb1.shutterstock.com/display_pic_with_logo/564163/255644446/stock-photo-samosa-on-a-plate-with-sauce-and-tomatoes-horizontal-view-from-above-rustic-style-255644446.jpg',
       [
         new Ingredient('Flour', 100),
-        new Ingredient('Potaotoes', 11)
+        new Ingredient('Potatoes', 11)
       ]),
     new Recipe('Kachori',
       'Indian Snacks', 'http://media3.sailusfood.com/wp-content/uploads/2010/03/kachori-chaat.jpg',
       [
         new Ingredient('Flour', 10),
-        new Ingredient('Spicies', 11)
+        new Ingredient('Spices', 11)
       ]
     )
   ];
