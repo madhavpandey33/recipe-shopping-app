@@ -4,13 +4,13 @@ import {RecipeService} from './recipe.service';
 import {ShoppingListService} from '../shopping-list/shopping.list.service';
 
 @Component({
-  selector: 'app-recepies',
-  templateUrl: './recepies.component.html',
-  styleUrls: ['./recepies.component.css'],
+  selector: 'app-recipes',
+  templateUrl: './recipes.component.html',
+  styleUrls: ['./recipes.component.css'],
   providers: [RecipeService, ShoppingListService]
 })
-export class RecepiesComponent implements OnInit {
-  recipeSelected : Recipe;
+export class RecipesComponent implements OnInit {
+  recipeSelected: Recipe;
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {

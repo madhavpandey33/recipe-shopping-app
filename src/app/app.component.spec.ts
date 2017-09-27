@@ -1,12 +1,20 @@
 import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
+import {HeaderComponent} from './header/header.component';
+import {RecepiesComponent} from './recepies/recipes.component';
+import {ShoppingListComponent} from './shopping-list/shopping-list.component';
+import {RecepiesItemComponent} from './recepies/recepies-list/recipes-item/recipes-item.component';
+import {ShoppingEditComponent} from './shopping-list/shopping-edit/shopping-edit.component';
+import {RecepiesListComponent} from './recepies/recepies-list/recipes-list.component';
+import {Recipe} from './recepies/recipe.model';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent, HeaderComponent, RecepiesComponent, ShoppingListComponent,
+        RecepiesItemComponent, RecepiesListComponent, ShoppingEditComponent, Recipe
       ],
     }).compileComponents();
   }));
